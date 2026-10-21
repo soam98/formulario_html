@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulário IEFP</title>
+    </head>
+    <body>
+        <h1>Bem-vindo ao IEFP</h1>
+
+        <form action="mailto:iefp@gov.pt?subject=formulário" method="post">
+            <p><input type="text" name="Nome">Nome</p>
+            <p><input type="number" name="CC">Número do CC</p>
+        <p>Qual IEFP pretendes te inscrever?</p>
+        <p><input type="radio" name="IEFP" value="Alcantara">Alcântara<br>
+            <input type="radio" name="IEFP" value="Alcoitao">Alcoitão<br>
+            <input type="radio" name="IEFP" value="Reboleira">Reboleira<br>
+            <input type="radio" name="IEFP" value="Sintra">Sintra<br>
+        </p>
+        <p>Em que curso pretendes te inscrever?</p>
+        <p><select name="curso" size="4">
+            <option>Cabeleireiro</option>
+            <option>Programação</option>
+            <option>Mecatrónica</option>
+            <option>Estética</option>
+            <option>Contabilidade e Administração</option>
+            <option>Artes Teatrais</option>
+            <option>Ação Educativa</option>
+            </select>
+        </p>
+        <p>Nível de Ensino</p>
+        <p><select name="Qualificação" size="4">
+             <option>1º Ciclo</option>
+            <option>2º Ciclo</option>
+            <option>3º Ciclo</option>
+            <option>Ensino Secundário</option>
+            <option>Licenciatura(inacabada)</option>
+            <option>Licenciatura</option>
+            <option>Mestrado/MBA</option>
+            <option>Doutoramento/PhD</option>
+        </select> </p>
+        <p>Área de Estudos</p>
+        <p><input type="radio" name="Área de Estudo" value="Ciências e Tecnologias">Ciências e Tecnologias<br>
+            <input type="radio" name="Área de Estudo" value="Ciências Sociais">Ciências Sociais<br>
+            <input type="radio" name="Área de Estudo" value="Economia">Economia<br>
+            <input type="radio" name="Área de Estudo" value="Artes">Artes<br>
+            <input type="radio" name="Área de Estudo" value="Outra">Outra<br>
+            <input type="radio" name="Área de Estudo" value="N/A">N/A<br>
+        </p>
+        <p><input type="submit" value="Enviar dados"></p>
+        <p><input type="reset" value="Apagar formulário"> </p>
+        </form>
+    </body>
+</html>

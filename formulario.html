@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulário</title>
+    </head>
+    <body>
+        <h1>Bem-vindo ao questionário!</h1>
+
+        <form action="mailto:sergei0132@gmail.com?subject=questionário" method="post">
+            <p>Por favor insira o seu primeiro nome e apelido aqui:</p>
+            <p><input type="text" name="Nome"></p>
+            <p>Em que cidade vive?</p>
+            <p><input type="radio" name="cidade" value="Lisboa">Lisboa<br>
+                <input type="radio" name="cidade" value="Porto">Porto<br>
+                <input type="radio" name="cidade" value="Coimbra">Coimbra<br></p>
+            
+            <p>Qual é a sua refeição preferida? Pode escolher várias!</p>
+            <p><input type="checkbox" name="comida" value="Spaghetti">Spaghetti<br>
+            <input type="checkbox" name="comida" value="Pizza">Pizza<br>
+            <input type="checkbox" name="comida" value="Refogado">Refogado<br></p>
+
+            <p>Escolha um destino de férias:</p>
+            <p><select name="ida-e-volta" size="4">
+                <option>Espanha</option>
+                <option>Ilhas Canárias</option>
+                <option>Grécia</option>
+                <option>Alemanha</option>
+            </select></p>
+
+            <p>Selecione, pelo menos, duas flores preferidas:</p>
+            <p><select multiple="multiple" name="flores" size="4">
+                <option>Rosas</option>
+                <option>Tulipas</option>
+                <option>Margaridas</option>
+                <option>Cravos</option>
+            </select></p>
+
+            <p><input type="submit" value="Enviar dados">
+                <input type="reset" value="Apagar formulário">
+            </p>
+        </form>
+    </body>
+</html>
+
+            
